@@ -82,6 +82,11 @@ nav ul {
   padding: 0;
 }
 
+@media (max-width: 680px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
 nav li {
   background-color: rgba(102, 196, 58, 0.2);
   padding: 1rem;
@@ -91,9 +96,11 @@ nav li {
   font-weight: lighter;
 }
 
+
 nav li.active {
   background-color: rgba(102, 196, 58, 0.4);
 }
+
 
 article {
   margin: 3rem auto;
